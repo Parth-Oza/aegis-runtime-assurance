@@ -1,0 +1,43 @@
+{
+  "name": "blind warehouse crossing with uncertain forklift motion",
+  "ego": {
+    "position": {"x": 0.0, "y": 0.0},
+    "heading_rad": 0.0,
+    "speed_mps": 2.0
+  },
+  "commanded_control": {
+    "acceleration_mps2": 0.0,
+    "yaw_rate_rps": 0.0
+  },
+  "obstacles": [
+    {
+      "id": "forklift-17",
+      "position": {"x": 6.0, "y": -3.0},
+      "velocity": {"x": 0.0, "y": 1.0},
+      "radius_m": 0.75,
+      "position_sigma_m": 0.12,
+      "acceleration_sigma_mps2": 0.12
+    },
+    {
+      "id": "staged-pallet",
+      "position": {"x": 9.0, "y": 2.5},
+      "velocity": {"x": 0.0, "y": 0.0},
+      "radius_m": 0.7,
+      "position_sigma_m": 0.03,
+      "acceleration_sigma_mps2": 0.0
+    }
+  ],
+  "config": {
+    "horizon_s": 5.0,
+    "step_s": 0.1,
+    "risk_budget": 0.05,
+    "robot_radius_m": 0.45,
+    "safety_margin_m": 0.25,
+    "localization_sigma_m": 0.08,
+    "max_speed_mps": 4.0,
+    "max_braking_mps2": 2.5,
+    "max_yaw_rate_rps": 1.2,
+    "reaction_time_s": 0.2
+  }
+}
+

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: Aegis Runtime Assurance
+message: If this software supports your work, please cite the repository.
+type: software
+authors:
+  - family-names: Oza
+    given-names: Parth
+version: 0.1.0
+date-released: 2026-09-06
+license: Apache-2.0
+repository-code: https://github.com/Parth-Oza/aegis-runtime-assurance
+

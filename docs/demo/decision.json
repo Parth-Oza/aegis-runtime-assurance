@@ -1,0 +1,2806 @@
+{
+  "applied_control": {
+    "acceleration_mps2": 0.0,
+    "yaw_rate_rps": -0.6
+  },
+  "applied_evaluation": {
+    "control": {
+      "acceleration_mps2": 0.0,
+      "yaw_rate_rps": -0.6
+    },
+    "earliest_risk_time_s": null,
+    "max_collision_probability": 3.1127218002580115e-06,
+    "minimum_clearance_m": 1.3938596873033136,
+    "risk_samples": [
+      {
+        "clearance_m": 5.258203932499369,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.708203932499369,
+        "time_s": 0.0,
+        "uncertainty_sigma_m": 0.14422205101855956
+      },
+      {
+        "clearance_m": 7.940770846134702,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.340770846134703,
+        "time_s": 0.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 5.03459713474939,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.48459713474939,
+        "time_s": 0.1,
+        "uncertainty_sigma_m": 0.1442232990886008
+      },
+      {
+        "clearance_m": 7.748223871331527,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.148223871331528,
+        "time_s": 0.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.810990336999411,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.260990336999411,
+        "time_s": 0.2,
+        "uncertainty_sigma_m": 0.1442420188433315
+      },
+      {
+        "clearance_m": 7.5560035730229576,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.956003573022958,
+        "time_s": 0.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.582351918078665,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.032351918078665,
+        "time_s": 0.30000000000000004,
+        "uncertainty_sigma_m": 0.14432310972259432
+      },
+      {
+        "clearance_m": 7.367904775321316,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.767904775321316,
+        "time_s": 0.30000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.3494079203922364,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.799407920392237,
+        "time_s": 0.4,
+        "uncertainty_sigma_m": 0.14454120519768748
+      },
+      {
+        "clearance_m": 7.184897244128713,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.584897244128713,
+        "time_s": 0.4,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.112981265872719,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.562981265872719,
+        "time_s": 0.5,
+        "uncertainty_sigma_m": 0.145
+      },
+      {
+        "clearance_m": 7.007993143226663,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.407993143226664,
+        "time_s": 0.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.874012156295869,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.324012156295869,
+        "time_s": 0.6000000000000001,
+        "uncertainty_sigma_m": 0.14583058664080042
+      },
+      {
+        "clearance_m": 6.83824234403,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.23824234403,
+        "time_s": 0.6000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.6335838459334555,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.083583845933456,
+        "time_s": 0.7000000000000001,
+        "uncertainty_sigma_m": 0.147188178873169
+      },
+      {
+        "clearance_m": 6.676725504219672,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.076725504219672,
+        "time_s": 0.7000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.392955073065476,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.842955073065476,
+        "time_s": 0.8,
+        "uncertainty_sigma_m": 0.14924664150325126
+      },
+      {
+        "clearance_m": 6.524544543186055,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.924544543186055,
+        "time_s": 0.8,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.1536005343102858,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.603600534310286,
+        "time_s": 0.9,
+        "uncertainty_sigma_m": 0.1521905384706947
+      },
+      {
+        "clearance_m": 6.382810202479805,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.782810202479804,
+        "time_s": 0.9,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.917260639351797,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.367260639351797,
+        "time_s": 1.0,
+        "uncertainty_sigma_m": 0.15620499351813308
+      },
+      {
+        "clearance_m": 6.252626499230711,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.652626499230711,
+        "time_s": 1.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.686001091991204,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.136001091991204,
+        "time_s": 1.1,
+        "uncertainty_sigma_m": 0.16146442332600702
+      },
+      {
+        "clearance_m": 6.1350720703942585,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.535072070394258,
+        "time_s": 1.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.462281067320938,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.9122810673209383,
+        "time_s": 1.2000000000000002,
+        "uncertainty_sigma_m": 0.16812186056548387
+      },
+      {
+        "clearance_m": 6.031178668299962,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.431178668299962,
+        "time_s": 1.2000000000000002,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.249025022213007,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.6990250222130068,
+        "time_s": 1.3,
+        "uncertainty_sigma_m": 0.17630076573855258
+      },
+      {
+        "clearance_m": 5.941907392569503,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.341907392569503,
+        "time_s": 1.3,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.049686295563564,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.499686295563564,
+        "time_s": 1.4000000000000001,
+        "uncertainty_sigma_m": 0.18609073055904746
+      },
+      {
+        "clearance_m": 5.868123601629318,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.268123601629318,
+        "time_s": 1.4000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.8682795409116213,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.3182795409116213,
+        "time_s": 1.5,
+        "uncertainty_sigma_m": 0.19754746265138412
+      },
+      {
+        "clearance_m": 5.8105717914114265,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.210571791411427,
+        "time_s": 1.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.7093441432231453,
+        "collision_probability": 2.220446049250313e-16,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.1593441432231453,
+        "time_s": 1.6,
+        "uncertainty_sigma_m": 0.21069636921408968
+      },
+      {
+        "clearance_m": 5.769851997308928,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.169851997308928,
+        "time_s": 1.6,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.5777871498845346,
+        "collision_probability": 1.3201661985817736e-12,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.0277871498845346,
+        "time_s": 1.7000000000000002,
+        "uncertainty_sigma_m": 0.22553837810891522
+      },
+      {
+        "clearance_m": 5.746399402027457,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.146399402027457,
+        "time_s": 1.7000000000000002,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.4785552938071673,
+        "collision_probability": 5.034709316120711e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.9285552938071673,
+        "time_s": 1.8,
+        "uncertainty_sigma_m": 0.24205652232484876
+      },
+      {
+        "clearance_m": 5.740468763196082,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.140468763196082,
+        "time_s": 1.8,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.416122104082319,
+        "collision_probability": 2.6346680281896795e-08,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.866122104082319,
+        "time_s": 1.9000000000000001,
+        "uncertainty_sigma_m": 0.2602221358762548
+      },
+      {
+        "clearance_m": 5.752124987399011,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.152124987399011,
+        "time_s": 1.9000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.3938596873033136,
+        "collision_probability": 3.2110664116569154e-07,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.8438596873033135,
+        "time_s": 2.0,
+        "uncertainty_sigma_m": 0.27999999999999997
+      },
+      {
+        "clearance_m": 5.781240691771815,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.181240691771816,
+        "time_s": 2.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.4134670277606751,
+        "collision_probability": 1.3632560935672444e-06,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.863467027760675,
+        "time_s": 2.1,
+        "uncertainty_sigma_m": 0.30135221917218397
+      },
+      {
+        "clearance_m": 5.82750097533353,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.2275009753335295,
+        "time_s": 2.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.4746688166643234,
+        "collision_probability": 2.7070653428884484e-06,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.9246688166643233,
+        "time_s": 2.2,
+        "uncertainty_sigma_m": 0.324240898098929
+      },
+      {
+        "clearance_m": 5.890414967072857,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.290414967072857,
+        "time_s": 2.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.5753133467768599,
+        "collision_probability": 3.1127218002580115e-06,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.02531334677686,
+        "time_s": 2.3000000000000003,
+        "uncertainty_sigma_m": 0.34862983234370526
+      },
+      {
+        "clearance_m": 5.969333132811448,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.369333132811448,
+        "time_s": 2.3000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.7118212324893716,
+        "collision_probability": 2.4255211898416285e-06,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.1618212324893715,
+        "time_s": 2.4000000000000004,
+        "uncertainty_sigma_m": 0.37448546033190666
+      },
+      {
+        "clearance_m": 6.06346889689509,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.46346889689509,
+        "time_s": 2.4000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.879796881784235,
+        "collision_probability": 1.4434725102430157e-06,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.329796881784235,
+        "time_s": 2.5,
+        "uncertainty_sigma_m": 0.401777301499226
+      },
+      {
+        "clearance_m": 6.171922918776588,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.571922918776587,
+        "time_s": 2.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.0746007113254183,
+        "collision_probability": 7.20332415604652e-07,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.5246007113254185,
+        "time_s": 2.6,
+        "uncertainty_sigma_m": 0.4304780598358063
+      },
+      {
+        "clearance_m": 6.293708363773373,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.693708363773372,
+        "time_s": 2.6,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.2917638913210405,
+        "collision_probability": 3.2455898441030584e-07,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.7417638913210403,
+        "time_s": 2.7,
+        "uncertainty_sigma_m": 0.46056352439158715
+      },
+      {
+        "clearance_m": 6.427775686945322,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.827775686945322,
+        "time_s": 2.7,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.527224500629692,
+        "collision_probability": 1.3994659747718075e-07,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.977224500629692,
+        "time_s": 2.8000000000000003,
+        "uncertainty_sigma_m": 0.49201235756838474
+      },
+      {
+        "clearance_m": 6.57303574959275,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.97303574959275,
+        "time_s": 2.8000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.7774215081744487,
+        "collision_probability": 6.039904820731579e-08,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.227421508174449,
+        "time_s": 2.9000000000000004,
+        "uncertainty_sigma_m": 0.5248058307602919
+      },
+      {
+        "clearance_m": 6.728380442997619,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.128380442997619,
+        "time_s": 2.9000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.0392981104841796,
+        "collision_probability": 2.698155315838946e-08,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.48929811048418,
+        "time_s": 3.0,
+        "uncertainty_sigma_m": 0.5589275444992848
+      },
+      {
+        "clearance_m": 6.892700345558323,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.292700345558323,
+        "time_s": 3.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.3102577614314654,
+        "collision_probability": 1.2779470093260414e-08,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.760257761431466,
+        "time_s": 3.1,
+        "uncertainty_sigma_m": 0.594363154981868
+      },
+      {
+        "clearance_m": 7.0648992460653695,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.46489924606537,
+        "time_s": 3.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.5881017069012318,
+        "collision_probability": 6.522613893444884e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.038101706901232,
+        "time_s": 3.2,
+        "uncertainty_sigma_m": 0.6311001188401093
+      },
+      {
+        "clearance_m": 7.243905605214525,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.643905605214526,
+        "time_s": 3.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.870964287105198,
+        "collision_probability": 3.6236211253815043e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.320964287105198,
+        "time_s": 3.3000000000000003,
+        "uncertainty_sigma_m": 0.6691274616991894
+      },
+      {
+        "clearance_m": 7.428681193721069,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.828681193721069,
+        "time_s": 3.3000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.157253806854978,
+        "collision_probability": 2.2025298251904246e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.607253806854978,
+        "time_s": 3.4000000000000004,
+        "uncertainty_sigma_m": 0.7084355722294019
+      },
+      {
+        "clearance_m": 7.61822724435862,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.01822724435862,
+        "time_s": 3.4000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.445601850970248,
+        "collision_probability": 1.4669365722141947e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.895601850970248,
+        "time_s": 3.5,
+        "uncertainty_sigma_m": 0.7490160211904683
+      },
+      {
+        "clearance_m": 7.811588499102783,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.211588499102783,
+        "time_s": 3.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.734821382645156,
+        "collision_probability": 1.0692808860568448e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.184821382645156,
+        "time_s": 3.6,
+        "uncertainty_sigma_m": 0.7908614037870354
+      },
+      {
+        "clearance_m": 8.007855535689794,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.407855535689794,
+        "time_s": 3.6,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 5.023872825125116,
+        "collision_probability": 8.503728832209845e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.473872825125116,
+        "time_s": 3.7,
+        "uncertainty_sigma_m": 0.8339652031110172
+      },
+      {
+        "clearance_m": 8.206165733985568,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.606165733985568,
+        "time_s": 3.7,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 5.311836936879305,
+        "collision_probability": 7.345841712691481e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.761836936879305,
+        "time_s": 3.8000000000000003,
+        "uncertainty_sigma_m": 0.8783216722818583
+      },
+      {
+        "clearance_m": 8.40570320304609,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.80570320304609,
+        "time_s": 3.8000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 5.597893262163698,
+        "collision_probability": 6.856484269235352e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 7.047893262163698,
+        "time_s": 3.9000000000000004,
+        "uncertainty_sigma_m": 0.9239257329461066
+      },
+      {
+        "clearance_m": 8.605697943309737,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 10.005697943309737,
+        "time_s": 3.9000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 5.881303063688183,
+        "collision_probability": 6.87531476195602e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 7.331303063688183,
+        "time_s": 4.0,
+        "uncertainty_sigma_m": 0.9707728879609278
+      },
+      {
+        "clearance_m": 8.805424471001327,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 10.205424471001328,
+        "time_s": 4.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 6.161395816884923,
+        "collision_probability": 7.36247396382339e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 7.611395816884923,
+        "time_s": 4.1000000000000005,
+        "uncertainty_sigma_m": 1.0188591463004102
+      },
+      {
+        "clearance_m": 9.004200087307836,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 10.404200087307837,
+        "time_s": 4.1000000000000005,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 6.437558517424654,
+        "collision_probability": 8.369369641769708e-10,
+        "obstacle_id": "forklift-17",
+        "separation_m": 7.8875585174246545,
+        "time_s": 4.2,
+        "uncertainty_sigma_m": 1.0681809584522652
+      },
+      {
+        "clearance_m": 9.201382935256822,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 10.601382935256822,
+        "time_s": 4.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 6.709227205656021,
+        "collision_probability": 1.0040271947175938e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 8.159227205656022,
+        "time_s": 4.3,
+        "uncertainty_sigma_m": 1.1187351607954403
+      },
+      {
+        "clearance_m": 9.39636995333463,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 10.796369953334631,
+        "time_s": 4.3,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 6.975880238163756,
+        "collision_probability": 1.2639128077474027e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 8.425880238163757,
+        "time_s": 4.4,
+        "uncertainty_sigma_m": 1.1705189276555934
+      },
+      {
+        "clearance_m": 9.588594806784608,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 10.988594806784608,
+        "time_s": 4.4,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 7.237032938539607,
+        "collision_probability": 1.66057650963225e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 8.687032938539607,
+        "time_s": 4.5,
+        "uncertainty_sigma_m": 1.223529729920773
+      },
+      {
+        "clearance_m": 9.777525854827745,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 11.177525854827746,
+        "time_s": 4.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 7.49223333999342,
+        "collision_probability": 2.2654504938657283e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 8.94223333999342,
+        "time_s": 4.6000000000000005,
+        "uncertainty_sigma_m": 1.2777652992627404
+      },
+      {
+        "clearance_m": 9.962664194118455,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 11.362664194118455,
+        "time_s": 4.6000000000000005,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 7.74105879539876,
+        "collision_probability": 3.1939585420914796e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 9.19105879539876,
+        "time_s": 4.7,
+        "uncertainty_sigma_m": 1.3332235971509057
+      },
+      {
+        "clearance_m": 10.143541804873255,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 11.543541804873255,
+        "time_s": 4.7,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 7.983113279320338,
+        "collision_probability": 4.632897232514921e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 9.433113279320338,
+        "time_s": 4.800000000000001,
+        "uncertainty_sigma_m": 1.3899027879675616
+      },
+      {
+        "clearance_m": 10.319719815585296,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 11.719719815585297,
+        "time_s": 4.800000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 8.218025244537857,
+        "collision_probability": 6.885543413215345e-09,
+        "obstacle_id": "forklift-17",
+        "separation_m": 9.668025244537857,
+        "time_s": 4.9,
+        "uncertainty_sigma_m": 1.4478012156370088
+      },
+      {
+        "clearance_m": 10.490786894418058,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 11.890786894418058,
+        "time_s": 4.9,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 8.445445925025357,
+        "collision_probability": 1.0445752374188544e-08,
+        "obstacle_id": "forklift-17",
+        "separation_m": 9.895445925025356,
+        "time_s": 5.0,
+        "uncertainty_sigma_m": 1.5069173832695673
+      },
+      {
+        "clearance_m": 10.656357769694427,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 12.056357769694428,
+        "time_s": 5.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      }
+    ],
+    "tail_risk": 2.2104073873596695e-06,
+    "trajectory": [
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.0
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.2,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.1
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.4,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.2
+      },
+      {
+        "state": {
+          "heading_rad": -0.06,
+          "position": {
+            "x": 0.5996401079870408,
+            "y": -0.01199280129588892
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.30000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": -0.12,
+          "position": {
+            "x": 0.7982018351578141,
+            "y": -0.0359352427536728
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.4
+      },
+      {
+        "state": {
+          "heading_rad": -0.18,
+          "position": {
+            "x": 0.9949705737154384,
+            "y": -0.07174115743883763
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.5
+      },
+      {
+        "state": {
+          "heading_rad": -0.24,
+          "position": {
+            "x": 1.1892381686858444,
+            "y": -0.11928168272426455
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.6000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": -0.3,
+          "position": {
+            "x": 1.3803054665109658,
+            "y": -0.17838572405653247
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.7000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": -0.36,
+          "position": {
+            "x": 1.5674848312465528,
+            "y": -0.24884057071155047
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.8
+      },
+      {
+        "state": {
+          "heading_rad": -0.42,
+          "position": {
+            "x": 1.7501026193090143,
+            "y": -0.3303926613234645
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.9
+      },
+      {
+        "state": {
+          "heading_rad": -0.48,
+          "position": {
+            "x": 1.9275016038648711,
+            "y": -0.4227484964317611
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.0
+      },
+      {
+        "state": {
+          "heading_rad": -0.54,
+          "position": {
+            "x": 2.099043340137636,
+            "y": -0.5255756947623837
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.1
+      },
+      {
+        "state": {
+          "heading_rad": -0.6000000000000001,
+          "position": {
+            "x": 2.2641104631195716,
+            "y": -0.6385041894413909
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.2000000000000002
+      },
+      {
+        "state": {
+          "heading_rad": -0.6600000000000001,
+          "position": {
+            "x": 2.4221089094190447,
+            "y": -0.7611275598360776
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.3
+      },
+      {
+        "state": {
+          "heading_rad": -0.7200000000000002,
+          "position": {
+            "x": 2.5724700552472237,
+            "y": -0.8930044942303723
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.4000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": -0.7800000000000002,
+          "position": {
+            "x": 2.714652762849679,
+            "y": -1.0336603780704543
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.5
+      },
+      {
+        "state": {
+          "heading_rad": -0.8400000000000003,
+          "position": {
+            "x": 2.8481453280179405,
+            "y": -1.1825890020646261
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.6
+      },
+      {
+        "state": {
+          "heading_rad": -0.9000000000000004,
+          "position": {
+            "x": 2.9724673216720734,
+            "y": -1.3392543839901228
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.7000000000000002
+      },
+      {
+        "state": {
+          "heading_rad": -0.9600000000000004,
+          "position": {
+            "x": 3.087171318886565,
+            "y": -1.5030926976503225
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.8
+      },
+      {
+        "state": {
+          "heading_rad": -1.0200000000000005,
+          "position": {
+            "x": 3.1918445091368945,
+            "y": -1.673514302040195
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.9000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": -1.0800000000000005,
+          "position": {
+            "x": 3.2861101819716425,
+            "y": -1.8499058634171845
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.0
+      },
+      {
+        "state": {
+          "heading_rad": -1.1400000000000006,
+          "position": {
+            "x": 3.369629082763314,
+            "y": -2.031632562640361
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.1
+      },
+      {
+        "state": {
+          "heading_rad": -1.2000000000000006,
+          "position": {
+            "x": 3.4421006336586486,
+            "y": -2.2180403798338064
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.2
+      },
+      {
+        "state": {
+          "heading_rad": -1.2600000000000007,
+          "position": {
+            "x": 3.5032640153343064,
+            "y": -2.40845844815191
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.3000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": -1.3200000000000007,
+          "position": {
+            "x": 3.552899105664781,
+            "y": -2.6022014681755627
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.4000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": -1.3800000000000008,
+          "position": {
+            "x": 3.5908272719243475,
+            "y": -2.798572174250035
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.5
+      },
+      {
+        "state": {
+          "heading_rad": -1.4400000000000008,
+          "position": {
+            "x": 3.6169120136719766,
+            "y": -2.9968638438883723
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.6
+      },
+      {
+        "state": {
+          "heading_rad": -1.5000000000000009,
+          "position": {
+            "x": 3.6310594540055168,
+            "y": -3.1963628412091833
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.7
+      },
+      {
+        "state": {
+          "heading_rad": -1.560000000000001,
+          "position": {
+            "x": 3.63321867741717,
+            "y": -3.3963511852551767
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.8000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": -1.620000000000001,
+          "position": {
+            "x": 3.623381913034336,
+            "y": -3.5961091339492812
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.9000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": -1.680000000000001,
+          "position": {
+            "x": 3.6015845625863614,
+            "y": -3.7949177743888964
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.0
+      },
+      {
+        "state": {
+          "heading_rad": -1.740000000000001,
+          "position": {
+            "x": 3.567905072996546,
+            "y": -3.992061610156007
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.1
+      },
+      {
+        "state": {
+          "heading_rad": -1.8000000000000012,
+          "position": {
+            "x": 3.522464654057928,
+            "y": -4.186831136331646
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.2
+      },
+      {
+        "state": {
+          "heading_rad": -1.8600000000000012,
+          "position": {
+            "x": 3.465426842208924,
+            "y": -4.378525392947429
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.3000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": -1.9200000000000013,
+          "position": {
+            "x": 3.3969969119787438,
+            "y": -4.566454487684494
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.4000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": -1.9800000000000013,
+          "position": {
+            "x": 3.3174211372207605,
+            "y": -4.7499420787408555
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.5
+      },
+      {
+        "state": {
+          "heading_rad": -2.0400000000000014,
+          "position": {
+            "x": 3.2269859047925777,
+            "y": -4.928327808931531
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.6
+      },
+      {
+        "state": {
+          "heading_rad": -2.1000000000000014,
+          "position": {
+            "x": 3.126016683872606,
+            "y": -5.100969682261305
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.7
+      },
+      {
+        "state": {
+          "heading_rad": -2.1600000000000015,
+          "position": {
+            "x": 3.014876854622483,
+            "y": -5.2672463744170415
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.8000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": -2.2200000000000015,
+          "position": {
+            "x": 2.893966400410897,
+            "y": -5.426559468864259
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.9000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": -2.2800000000000016,
+          "position": {
+            "x": 2.7637204683053875,
+            "y": -5.578335610500443
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.0
+      },
+      {
+        "state": {
+          "heading_rad": -2.3400000000000016,
+          "position": {
+            "x": 2.624607803012807,
+            "y": -5.7220285691142685
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.1000000000000005
+      },
+      {
+        "state": {
+          "heading_rad": -2.4000000000000017,
+          "position": {
+            "x": 2.477129059904558,
+            "y": -5.857121205224498
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.2
+      },
+      {
+        "state": {
+          "heading_rad": -2.4600000000000017,
+          "position": {
+            "x": 2.3218150031978992,
+            "y": -5.983127331223677
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.3
+      },
+      {
+        "state": {
+          "heading_rad": -2.520000000000002,
+          "position": {
+            "x": 2.1592245957779213,
+            "y": -6.099593461128492
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.4
+      },
+      {
+        "state": {
+          "heading_rad": -2.580000000000002,
+          "position": {
+            "x": 1.989942987534766,
+            "y": -6.206100442639617
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.5
+      },
+      {
+        "state": {
+          "heading_rad": -2.640000000000002,
+          "position": {
+            "x": 1.8145794094559096,
+            "y": -6.302264965637346
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.6000000000000005
+      },
+      {
+        "state": {
+          "heading_rad": -2.700000000000002,
+          "position": {
+            "x": 1.6337649810524972,
+            "y": -6.387740941684112
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.7
+      },
+      {
+        "state": {
+          "heading_rad": -2.760000000000002,
+          "position": {
+            "x": 1.4481504390106306,
+            "y": -6.462220749569123
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.800000000000001
+      },
+      {
+        "state": {
+          "heading_rad": -2.820000000000002,
+          "position": {
+            "x": 1.258403795242009,
+            "y": -6.525436342412533
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.9
+      },
+      {
+        "state": {
+          "heading_rad": -2.880000000000002,
+          "position": {
+            "x": 1.065207932762414,
+            "y": -6.577160212344754
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 5.0
+      }
+    ]
+  },
+  "candidates_evaluated": 26,
+  "commanded_control": {
+    "acceleration_mps2": 0.0,
+    "yaw_rate_rps": 0.0
+  },
+  "commanded_evaluation": {
+    "control": {
+      "acceleration_mps2": 0.0,
+      "yaw_rate_rps": 0.0
+    },
+    "earliest_risk_time_s": 2.2,
+    "max_collision_probability": 0.9952601783095332,
+    "minimum_clearance_m": -1.4499999999999973,
+    "risk_samples": [
+      {
+        "clearance_m": 5.258203932499369,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.708203932499369,
+        "time_s": 0.0,
+        "uncertainty_sigma_m": 0.14422205101855956
+      },
+      {
+        "clearance_m": 7.940770846134702,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.340770846134703,
+        "time_s": 0.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 5.03459713474939,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.48459713474939,
+        "time_s": 0.1,
+        "uncertainty_sigma_m": 0.1442232990886008
+      },
+      {
+        "clearance_m": 7.748223871331527,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 9.148223871331528,
+        "time_s": 0.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.810990336999411,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.260990336999411,
+        "time_s": 0.2,
+        "uncertainty_sigma_m": 0.1442420188433315
+      },
+      {
+        "clearance_m": 7.5560035730229576,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.956003573022958,
+        "time_s": 0.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.587383539249433,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 6.037383539249433,
+        "time_s": 0.30000000000000004,
+        "uncertainty_sigma_m": 0.14432310972259432
+      },
+      {
+        "clearance_m": 7.364131445842196,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.764131445842196,
+        "time_s": 0.30000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.3637767414994535,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.813776741499454,
+        "time_s": 0.4,
+        "uncertainty_sigma_m": 0.14454120519768748
+      },
+      {
+        "clearance_m": 7.172630868059116,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.572630868059116,
+        "time_s": 0.4,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 4.140169943749474,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.5901699437494745,
+        "time_s": 0.5,
+        "uncertainty_sigma_m": 0.145
+      },
+      {
+        "clearance_m": 6.981527307120105,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.381527307120106,
+        "time_s": 0.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.916563145999495,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.366563145999495,
+        "time_s": 0.6000000000000001,
+        "uncertainty_sigma_m": 0.14583058664080042
+      },
+      {
+        "clearance_m": 6.79084855189009,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.19084855189009,
+        "time_s": 0.6000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.692956348249516,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 5.142956348249516,
+        "time_s": 0.7000000000000001,
+        "uncertainty_sigma_m": 0.147188178873169
+      },
+      {
+        "clearance_m": 6.600624975587843,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 8.000624975587844,
+        "time_s": 0.7000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.4693495504995377,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.919349550499538,
+        "time_s": 0.8,
+        "uncertainty_sigma_m": 0.14924664150325126
+      },
+      {
+        "clearance_m": 6.410889834071405,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.810889834071404,
+        "time_s": 0.8,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.2457427527495586,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.695742752749559,
+        "time_s": 0.9,
+        "uncertainty_sigma_m": 0.1521905384706947
+      },
+      {
+        "clearance_m": 6.221679604916492,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.621679604916491,
+        "time_s": 0.9,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.0221359549995794,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.47213595499958,
+        "time_s": 1.0,
+        "uncertainty_sigma_m": 0.15620499351813308
+      },
+      {
+        "clearance_m": 6.0330343736592535,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.433034373659253,
+        "time_s": 1.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.7985291572496003,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.2485291572496005,
+        "time_s": 1.1,
+        "uncertainty_sigma_m": 0.16146442332600702
+      },
+      {
+        "clearance_m": 5.844998274671983,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.244998274671983,
+        "time_s": 1.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.574922359499621,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.024922359499621,
+        "time_s": 1.2000000000000002,
+        "uncertainty_sigma_m": 0.16812186056548387
+      },
+      {
+        "clearance_m": 5.657619995437555,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 7.057619995437555,
+        "time_s": 1.2000000000000002,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.351315561749643,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.8013155617496426,
+        "time_s": 1.3,
+        "uncertainty_sigma_m": 0.17630076573855258
+      },
+      {
+        "clearance_m": 5.470953354520754,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 6.870953354520754,
+        "time_s": 1.3,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.1277087639996637,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.5777087639996634,
+        "time_s": 1.4000000000000001,
+        "uncertainty_sigma_m": 0.18609073055904746
+      },
+      {
+        "clearance_m": 5.285057965343308,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 6.685057965343307,
+        "time_s": 1.4000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.9041019662496843,
+        "collision_probability": 0.0,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.3541019662496843,
+        "time_s": 1.5,
+        "uncertainty_sigma_m": 0.19754746265138412
+      },
+      {
+        "clearance_m": 5.1,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 6.5,
+        "time_s": 1.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.6804951684997051,
+        "collision_probability": 7.771561172376096e-16,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.130495168499705,
+        "time_s": 1.6,
+        "uncertainty_sigma_m": 0.21069636921408968
+      },
+      {
+        "clearance_m": 4.915853069855251,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 6.31585306985525,
+        "time_s": 1.6,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.456888370749726,
+        "collision_probability": 5.248901313592569e-11,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.906888370749726,
+        "time_s": 1.7000000000000002,
+        "uncertainty_sigma_m": 0.22553837810891522
+      },
+      {
+        "clearance_m": 4.7326992425847845,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 6.132699242584785,
+        "time_s": 1.7000000000000002,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.2332815729997468,
+        "collision_probability": 1.7435697086121138e-07,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.683281572999747,
+        "time_s": 1.8,
+        "uncertainty_sigma_m": 0.24205652232484876
+      },
+      {
+        "clearance_m": 4.550630218724734,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 5.950630218724735,
+        "time_s": 1.8,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.0096747752497677,
+        "collision_probability": 5.221759856760544e-05,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.4596747752497676,
+        "time_s": 1.9000000000000001,
+        "uncertainty_sigma_m": 0.2602221358762548
+      },
+      {
+        "clearance_m": 4.369748694700663,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 5.769748694700662,
+        "time_s": 1.9000000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.786067977499789,
+        "collision_probability": 0.0024972705569202835,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.236067977499789,
+        "time_s": 2.0,
+        "uncertainty_sigma_m": 0.27999999999999997
+      },
+      {
+        "clearance_m": 4.190169943749474,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 5.590169943749474,
+        "time_s": 2.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.5624611797498098,
+        "collision_probability": 0.03098867615673151,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.0124611797498098,
+        "time_s": 2.1,
+        "uncertainty_sigma_m": 0.30135221917218397
+      },
+      {
+        "clearance_m": 4.012023651093923,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 5.412023651093922,
+        "time_s": 2.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.33885438199983065,
+        "collision_probability": 0.147995347140585,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.7888543819998306,
+        "time_s": 2.2,
+        "uncertainty_sigma_m": 0.324240898098929
+      },
+      {
+        "clearance_m": 3.8354560450833692,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 5.235456045083369,
+        "time_s": 2.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.11524758424985149,
+        "collision_probability": 0.3704835491800301,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.5652475842498514,
+        "time_s": 2.3000000000000003,
+        "uncertainty_sigma_m": 0.34862983234370526
+      },
+      {
+        "clearance_m": 3.6606323715519973,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 5.060632371551997,
+        "time_s": 2.3000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.10835921350012767,
+        "collision_probability": 0.6138451087862709,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.3416407864998723,
+        "time_s": 2.4000000000000004,
+        "uncertainty_sigma_m": 0.37448546033190666
+      },
+      {
+        "clearance_m": 3.4877397639399734,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 4.887739763939973,
+        "time_s": 2.4000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.3319660112501066,
+        "collision_probability": 0.7956671015666215,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.1180339887498933,
+        "time_s": 2.5,
+        "uncertainty_sigma_m": 0.401777301499226
+      },
+      {
+        "clearance_m": 3.316990566028301,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 4.716990566028301,
+        "time_s": 2.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.5555728090000859,
+        "collision_probability": 0.9015779155292079,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.8944271909999141,
+        "time_s": 2.6,
+        "uncertainty_sigma_m": 0.4304780598358063
+      },
+      {
+        "clearance_m": 3.1486261662176624,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 4.548626166217662,
+        "time_s": 2.6,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.779179606750065,
+        "collision_probability": 0.9546575779711681,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.6708203932499349,
+        "time_s": 2.7,
+        "uncertainty_sigma_m": 0.46056352439158715
+      },
+      {
+        "clearance_m": 2.982921400162223,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 4.382921400162223,
+        "time_s": 2.7,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -1.002786404500044,
+        "collision_probability": 0.9792316610038396,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.44721359549995576,
+        "time_s": 2.8000000000000003,
+        "uncertainty_sigma_m": 0.49201235756838474
+      },
+      {
+        "clearance_m": 2.8201895692018364,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 4.220189569201836,
+        "time_s": 2.8000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -1.2263932022500235,
+        "collision_probability": 0.9902765420491204,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.22360679774997658,
+        "time_s": 2.9000000000000004,
+        "uncertainty_sigma_m": 0.5248058307602919
+      },
+      {
+        "clearance_m": 2.660788100849389,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 4.060788100849389,
+        "time_s": 2.9000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -1.4499999999999973,
+        "collision_probability": 0.9952601783095332,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.6645352591003757e-15,
+        "time_s": 3.0,
+        "uncertainty_sigma_m": 0.5589275444992848
+      },
+      {
+        "clearance_m": 2.5051248379533253,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.905124837953325,
+        "time_s": 3.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -1.2263932022500184,
+        "collision_probability": 0.9804614236533881,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.22360679774998155,
+        "time_s": 3.1,
+        "uncertainty_sigma_m": 0.594363154981868
+      },
+      {
+        "clearance_m": 2.35366487582469,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.7536648758246898,
+        "time_s": 3.1,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -1.0027864045000392,
+        "collision_probability": 0.9439641361115885,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.4472135954999607,
+        "time_s": 3.2,
+        "uncertainty_sigma_m": 0.6311001188401093
+      },
+      {
+        "clearance_m": 2.2069377593742847,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.6069377593742846,
+        "time_s": 3.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.77917960675006,
+        "collision_probability": 0.8778834303595732,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.6708203932499399,
+        "time_s": 3.3000000000000003,
+        "uncertainty_sigma_m": 0.6691274616991894
+      },
+      {
+        "clearance_m": 2.0655446902326893,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.465544690232689,
+        "time_s": 3.3000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.5555728090000809,
+        "collision_probability": 0.7835459187035079,
+        "obstacle_id": "forklift-17",
+        "separation_m": 0.8944271909999191,
+        "time_s": 3.4000000000000004,
+        "uncertainty_sigma_m": 0.7084355722294019
+      },
+      {
+        "clearance_m": 1.9301651610693402,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.33016516106934,
+        "time_s": 3.4000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.33196601125010194,
+        "collision_probability": 0.6711904795740194,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.118033988749898,
+        "time_s": 3.5,
+        "uncertainty_sigma_m": 0.7490160211904683
+      },
+      {
+        "clearance_m": 1.8015621187164221,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.201562118716422,
+        "time_s": 3.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": -0.10835921350012279,
+        "collision_probability": 0.5544901999874394,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.3416407864998772,
+        "time_s": 3.6,
+        "uncertainty_sigma_m": 0.7908614037870354
+      },
+      {
+        "clearance_m": 1.6805843601498704,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 3.0805843601498704,
+        "time_s": 3.6,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.11524758424985637,
+        "collision_probability": 0.4450442132396847,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.5652475842498563,
+        "time_s": 3.7,
+        "uncertainty_sigma_m": 0.8339652031110172
+      },
+      {
+        "clearance_m": 1.568164415931164,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.968164415931164,
+        "time_s": 3.7,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.33885438199983553,
+        "collision_probability": 0.34982329116392186,
+        "obstacle_id": "forklift-17",
+        "separation_m": 1.7888543819998355,
+        "time_s": 3.8000000000000003,
+        "uncertainty_sigma_m": 0.8783216722818583
+      },
+      {
+        "clearance_m": 1.4653097563788786,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.8653097563788785,
+        "time_s": 3.8000000000000003,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.5624611797498147,
+        "collision_probability": 0.2713374061648497,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.0124611797498146,
+        "time_s": 3.9000000000000004,
+        "uncertainty_sigma_m": 0.9239257329461066
+      },
+      {
+        "clearance_m": 1.373084924772408,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.773084924772408,
+        "time_s": 3.9000000000000004,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 0.786067977499793,
+        "collision_probability": 0.20904648772241163,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.236067977499793,
+        "time_s": 4.0,
+        "uncertainty_sigma_m": 0.9707728879609278
+      },
+      {
+        "clearance_m": 1.2925824035672506,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.6925824035672505,
+        "time_s": 4.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.0096747752497717,
+        "collision_probability": 0.16084629802701245,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.4596747752497716,
+        "time_s": 4.1000000000000005,
+        "uncertainty_sigma_m": 1.0188591463004102
+      },
+      {
+        "clearance_m": 1.2248809496813369,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.624880949681337,
+        "time_s": 4.1000000000000005,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.2332815729997495,
+        "collision_probability": 0.12413483540007941,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.6832815729997495,
+        "time_s": 4.2,
+        "uncertainty_sigma_m": 1.0681809584522652
+      },
+      {
+        "clearance_m": 1.1709920264364877,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5709920264364876,
+        "time_s": 4.2,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.4568883707497278,
+        "collision_probability": 0.09641310043892198,
+        "obstacle_id": "forklift-17",
+        "separation_m": 2.9068883707497277,
+        "time_s": 4.3,
+        "uncertainty_sigma_m": 1.1187351607954403
+      },
+      {
+        "clearance_m": 1.1317977802344323,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5317977802344322,
+        "time_s": 4.3,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.6804951684997065,
+        "collision_probability": 0.0755461555662611,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.1304951684997064,
+        "time_s": 4.4,
+        "uncertainty_sigma_m": 1.1705189276555934
+      },
+      {
+        "clearance_m": 1.1079872407968905,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5079872407968904,
+        "time_s": 4.4,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 1.9041019662496848,
+        "collision_probability": 0.059825899271422456,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.3541019662496847,
+        "time_s": 4.5,
+        "uncertainty_sigma_m": 1.223529729920773
+      },
+      {
+        "clearance_m": 1.1,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5,
+        "time_s": 4.5,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.127708763999663,
+        "collision_probability": 0.04793846060334156,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.577708763999663,
+        "time_s": 4.6000000000000005,
+        "uncertainty_sigma_m": 1.2777652992627404
+      },
+      {
+        "clearance_m": 1.1079872407968905,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5079872407968904,
+        "time_s": 4.6000000000000005,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.351315561749641,
+        "collision_probability": 0.03889699324139956,
+        "obstacle_id": "forklift-17",
+        "separation_m": 3.8013155617496412,
+        "time_s": 4.7,
+        "uncertainty_sigma_m": 1.3332235971509057
+      },
+      {
+        "clearance_m": 1.1317977802344323,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5317977802344322,
+        "time_s": 4.7,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.5749223594996193,
+        "collision_probability": 0.03197045198327275,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.0249223594996195,
+        "time_s": 4.800000000000001,
+        "uncertainty_sigma_m": 1.3899027879675616
+      },
+      {
+        "clearance_m": 1.1709920264364877,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.5709920264364876,
+        "time_s": 4.800000000000001,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 2.7985291572495976,
+        "collision_probability": 0.02662110229490966,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.248529157249598,
+        "time_s": 4.9,
+        "uncertainty_sigma_m": 1.4478012156370088
+      },
+      {
+        "clearance_m": 1.2248809496813369,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.624880949681337,
+        "time_s": 4.9,
+        "uncertainty_sigma_m": 0.08544003745317531
+      },
+      {
+        "clearance_m": 3.022135954999576,
+        "collision_probability": 0.022454344642415136,
+        "obstacle_id": "forklift-17",
+        "separation_m": 4.472135954999576,
+        "time_s": 5.0,
+        "uncertainty_sigma_m": 1.5069173832695673
+      },
+      {
+        "clearance_m": 1.2925824035672506,
+        "collision_probability": 0.0,
+        "obstacle_id": "staged-pallet",
+        "separation_m": 2.6925824035672505,
+        "time_s": 5.0,
+        "uncertainty_sigma_m": 0.08544003745317531
+      }
+    ],
+    "tail_risk": 0.97997747659741,
+    "trajectory": [
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.0
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.2,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.1
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.4,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.2
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.6000000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.30000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 0.8,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.4
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 1.0,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.5
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 1.2,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.6000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 1.4,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.7000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 1.5999999999999999,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.8
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 1.7999999999999998,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 0.9
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 1.9999999999999998,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.0
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 2.1999999999999997,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.1
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 2.4,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.2000000000000002
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 2.6,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.3
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 2.8000000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.4000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 3.0000000000000004,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.5
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 3.2000000000000006,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.6
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 3.400000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.7000000000000002
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 3.600000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.8
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 3.800000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 1.9000000000000001
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 4.000000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.0
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 4.200000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.1
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 4.400000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.2
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 4.600000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.3000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 4.800000000000002,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.4000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 5.000000000000002,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.5
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 5.200000000000002,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.6
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 5.400000000000002,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.7
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 5.600000000000002,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.8000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 5.8000000000000025,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 2.9000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 6.000000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.0
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 6.200000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.1
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 6.400000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.2
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 6.600000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.3000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 6.800000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.4000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 7.0000000000000036,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.5
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 7.200000000000004,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.6
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 7.400000000000004,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.7
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 7.600000000000004,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.8000000000000003
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 7.800000000000004,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 3.9000000000000004
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 8.000000000000004,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.0
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 8.200000000000003,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.1000000000000005
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 8.400000000000002,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.2
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 8.600000000000001,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.3
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 8.8,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.4
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 9.0,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.5
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 9.2,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.6000000000000005
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 9.399999999999999,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.7
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 9.599999999999998,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.800000000000001
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 9.799999999999997,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 4.9
+      },
+      {
+        "state": {
+          "heading_rad": 0.0,
+          "position": {
+            "x": 9.999999999999996,
+            "y": 0.0
+          },
+          "speed_mps": 2.0
+        },
+        "time_s": 5.0
+      }
+    ]
+  },
+  "counterfactual": {
+    "absolute_risk_reduction": 0.9952570655877329,
+    "acceleration_delta_mps2": 0.0,
+    "claim": "Minimum-cost safe alternative found by deterministic control search.",
+    "earliest_risk_time_after_s": null,
+    "earliest_risk_time_before_s": 2.2,
+    "risk_after": 3.1127218002580115e-06,
+    "risk_before": 0.9952601783095332,
+    "yaw_rate_delta_rps": -0.6
+  },
+  "intervened": true,
+  "reason": "Command rejected: predicted collision probability exceeds the risk budget; least-deviating safe control selected.",
+  "scenario_name": "blind warehouse crossing with uncertain forklift motion"
+}

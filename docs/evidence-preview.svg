@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Aegis runtime assurance evidence preview</title>
+  <desc id="desc">An unsafe warehouse crossing command is replaced by a safe steering command, reducing modeled collision risk.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07101d"/><stop offset="1" stop-color="#0c1c31"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#142238"/><stop offset="1" stop-color="#0c1625"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="56" y="55" fill="#67e8f9" font-family="ui-monospace,monospace" font-size="18" letter-spacing="3">AEGIS / RUNTIME ASSURANCE EVIDENCE</text>
+  <text x="56" y="106" fill="#eaf2ff" font-family="system-ui,sans-serif" font-size="38" font-weight="700">Blind warehouse crossing</text>
+  <text x="56" y="139" fill="#91a4bd" font-family="system-ui,sans-serif" font-size="18">Black-box command rejected · least-deviating safe control selected</text>
+  <g transform="translate(56 177)"><rect width="250" height="128" rx="16" fill="url(#panel)" stroke="#24344d"/><text x="22" y="35" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="15">DECISION</text><text x="22" y="88" fill="#67e8f9" font-family="system-ui,sans-serif" font-size="34" font-weight="800">INTERVENED</text></g>
+  <g transform="translate(324 177)"><rect width="250" height="128" rx="16" fill="url(#panel)" stroke="#24344d"/><text x="22" y="35" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="15">COMMANDED RISK</text><text x="22" y="88" fill="#fb7185" font-family="system-ui,sans-serif" font-size="40" font-weight="800">99.526%</text></g>
+  <g transform="translate(592 177)"><rect width="250" height="128" rx="16" fill="url(#panel)" stroke="#24344d"/><text x="22" y="35" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="15">APPLIED RISK</text><text x="22" y="88" fill="#4ade80" font-family="system-ui,sans-serif" font-size="40" font-weight="800">0.000311%</text></g>
+  <g transform="translate(860 177)"><rect width="284" height="128" rx="16" fill="url(#panel)" stroke="#24344d"/><text x="22" y="35" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="15">P95 / 26 CONTROLS</text><text x="22" y="88" fill="#eaf2ff" font-family="system-ui,sans-serif" font-size="40" font-weight="800">6.75 ms</text></g>
+  <g transform="translate(56 337)">
+    <rect width="1088" height="220" rx="16" fill="url(#panel)" stroke="#24344d"/>
+    <text x="24" y="36" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="15">COUNTERFACTUAL CONTROL SEARCH</text>
+    <line x1="90" y1="168" x2="990" y2="168" stroke="#31445f" stroke-width="2"/>
+    <path d="M90 168 C250 166 330 150 430 76 C520 18 598 40 700 132 C790 202 890 171 990 168" fill="none" stroke="#fb7185" stroke-width="5" filter="url(#glow)"/>
+    <path d="M90 168 C260 169 335 159 430 137 C530 115 630 127 730 150 C820 171 900 169 990 168" fill="none" stroke="#4ade80" stroke-width="5" filter="url(#glow)"/>
+    <circle cx="500" cy="67" r="10" fill="#fb7185"/>
+    <text x="520" y="71" fill="#fb7185" font-family="ui-monospace,monospace" font-size="14">forklift overlap predicted</text>
+    <text x="89" y="201" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="13">t=0</text><text x="958" y="201" fill="#91a4bd" font-family="ui-monospace,monospace" font-size="13">t=5s</text>
+    <text x="760" y="50" fill="#fb7185" font-family="ui-monospace,monospace" font-size="14">planner ω = 0.00</text><text x="760" y="76" fill="#4ade80" font-family="ui-monospace,monospace" font-size="14">applied ω = -0.60 rad/s</text>
+  </g>
+  <text x="56" y="596" fill="#60748e" font-family="ui-monospace,monospace" font-size="13">Deterministic prototype result · not a safety certification</text>
+</svg>
