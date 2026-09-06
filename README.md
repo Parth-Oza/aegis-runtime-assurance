@@ -3,6 +3,8 @@
 [![CI](https://github.com/Parth-Oza/aegis-runtime-assurance/actions/workflows/ci.yml/badge.svg)](https://github.com/Parth-Oza/aegis-runtime-assurance/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
+[Live technical brief](https://parth-oza.github.io/aegis-runtime-assurance/) · [Decision evidence](https://parth-oza.github.io/aegis-runtime-assurance/demo/evidence.html)
+
 Aegis is a deterministic safety supervisor for mobile robots. It sits between any upstream planner—classical, learned, or vendor-supplied—and the actuators. Before a command is applied, Aegis predicts a probabilistic reachable tube, measures collision risk under perception and motion uncertainty, and replaces unsafe commands with the least-deviating safe alternative.
 
 The output is not just **stop/go**. Every decision produces machine-readable JSON and a standalone evidence report showing the predicted hazard, the intervention, and the counterfactual risk reduction.
