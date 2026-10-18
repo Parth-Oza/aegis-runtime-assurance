@@ -52,6 +52,9 @@ table{{width:100%;border-collapse:collapse}}th,td{{text-align:left;padding:10px;
 <div class="card"><div class="muted">Commanded risk</div><div class="value bad">{_percent(before.max_collision_probability)}</div></div>
 <div class="card"><div class="muted">Applied risk</div><div class="value good">{_percent(after.max_collision_probability)}</div></div>
 <div class="card"><div class="muted">Candidates evaluated</div><div class="value">{decision.candidates_evaluated}</div></div>
+<div class="card"><div class="muted">Fallback</div><div class="value">{html.escape(decision.fallback_controller)}</div></div>
+<div class="card"><div class="muted">Feasibility</div><div class="value">{html.escape(decision.fallback_status)}</div></div>
+<div class="card"><div class="muted">Command deviation</div><div class="value">{decision.command_deviation:.3f}</div></div>
 </section>
 <section class="card" style="margin-top:16px"><h2>Counterfactual control</h2>
 <p>Planner: <code>a={decision.commanded_control.acceleration_mps2:.2f} m/s²</code>, <code>ω={decision.commanded_control.yaw_rate_rps:.2f} rad/s</code><br>

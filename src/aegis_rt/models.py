@@ -117,6 +117,9 @@ class AssuranceDecision:
     commanded_evaluation: CandidateEvaluation
     applied_evaluation: CandidateEvaluation
     candidates_evaluated: int
+    fallback_controller: str
+    fallback_status: str
+    command_deviation: float
     counterfactual: dict[str, Any]
 
     def to_dict(self) -> dict[str, Any]:
