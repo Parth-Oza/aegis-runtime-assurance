@@ -18,6 +18,8 @@ setup(
         (f"share/{package_name}/launch", ["launch/command_guard.launch.py"]),
     ],
     install_requires=["setuptools"],
+    tests_require=["pytest"],
+    extras_require={"test": ["pytest"]},
     zip_safe=True,
     maintainer="Parth Oza",
     maintainer_email="ozaparth055@gmail.com",
