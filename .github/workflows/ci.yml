@@ -28,3 +28,14 @@ jobs:
           name: evidence-python-${{ matrix.python-version }}
           path: artifacts/
 
+  ros2:
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-noble-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ros-tooling/action-ros-ci@v0.4
+        with:
+          package-name: aegis_rt_ros
+          target-ros2-distro: jazzy
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aegis_rt_ros</name>
+  <version>0.1.0</version>
+  <description>ROS 2 command guard and tracked-object adapters for Aegis Runtime Assurance.</description>
+  <maintainer email="ozaparth055@gmail.com">Parth Oza</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>diagnostic_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>rosbag2_py</test_depend>
+  <test_depend>rosbag2_storage_sqlite3</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
