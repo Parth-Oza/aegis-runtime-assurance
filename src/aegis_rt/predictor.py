@@ -2,9 +2,11 @@ from __future__ import annotations
 
 from math import cos, erf, pi, sin, sqrt
 
+from .calibration import empirical_collision_probability
 from .models import (
     CandidateEvaluation,
     Control,
+    EmpiricalCalibration,
     Obstacle,
     RiskSample,
     RobotState,
@@ -56,6 +58,7 @@ def evaluate_control(
     control: Control,
     obstacles: tuple[Obstacle, ...],
     config: SafetyConfig,
+    calibration: EmpiricalCalibration | None = None,
 ) -> CandidateEvaluation:
     trajectory = rollout(state, control, config)
     samples: list[RiskSample] = []
@@ -70,7 +73,16 @@ def evaluate_control(
                 + obstacle.position_sigma_m**2
                 + growth**2
             )
-            probability = collision_probability(separation, combined_radius, sigma)
+            if calibration is None:
+                probability = collision_probability(separation, combined_radius, sigma)
+                uncertainty_model = "radial_gaussian"
+            else:
+                probability = empirical_collision_probability(
+                    separation - combined_radius,
+                    point.time_s,
+                    calibration,
+                )
+                uncertainty_model = "empirical_residual"
             samples.append(
                 RiskSample(
                     time_s=point.time_s,
@@ -79,6 +91,7 @@ def evaluate_control(
                     clearance_m=separation - combined_radius,
                     uncertainty_sigma_m=sigma,
                     collision_probability=probability,
+                    uncertainty_model=uncertainty_model,
                 )
             )
 

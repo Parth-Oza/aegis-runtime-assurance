@@ -19,6 +19,7 @@ Robotics teams routinely integrate black-box autonomy components that perform we
 
 - Bounded unicycle rollout with explicit reaction latency
 - Dynamic-obstacle prediction with time-growing motion uncertainty
+- Optional non-Gaussian calibration from recorded trajectory residuals
 - Chance-constrained collision risk and worst-tail risk scoring
 - Simplex-style command supervision around an arbitrary planner
 - Deterministic search for the least-deviating safe control
@@ -57,6 +58,8 @@ Measured locally on 2026-09-06 using Python 3.14.7 on arm64:
 The benchmark used 50 warm-up evaluations followed by 1,000 recorded evaluations. These are prototype measurements on one machine, not a real-time guarantee or safety certification.
 
 The benchmark reports latency, feasibility, and normalized command deviation separately for the `lattice` and `cbf` fallback controllers. Select one with `--controller lattice` or `--controller cbf`; the default compares both.
+
+For tracker-specific uncertainty, fit a deterministic empirical artifact with `aegis-rt calibrate` and compare its risk estimates to the radial Gaussian baseline with `aegis-rt compare-predictors`. The compact data format, coverage metrics, and provenance requirements are documented in [the calibration guide](docs/UNCERTAINTY_CALIBRATION.md). The checked-in residual dataset is explicitly synthetic and is not presented as field evidence.
 
 ## What demonstrates engineering depth
 

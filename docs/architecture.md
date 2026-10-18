@@ -38,6 +38,8 @@ Every intervention reports `fallback_controller`, `fallback_status`, and normali
 
 These assumptions are visible rather than hidden. A production integration should replace them with calibrated vehicle and tracker models while keeping the supervisor interface stable.
 
+When a scenario references an empirical calibration artifact, collision probability uses the survival function of recorded radial residuals from the nearest prediction-horizon bin. The baseline Gaussian model remains the default so existing scenarios and integrations are unchanged. Evidence labels every risk sample with the active uncertainty model.
+
 ## Failure behavior
 
 If no candidate satisfies the risk budget, Aegis chooses the minimum-risk candidate and labels the decision as an emergency fallback. This distinction is important: the system never describes an unsafe candidate as safe simply because it was the best available option.

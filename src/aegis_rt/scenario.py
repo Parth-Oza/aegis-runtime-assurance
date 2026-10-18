@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .calibration import load_calibration
 from .models import Control, Obstacle, RobotState, SafetyConfig, Scenario, Vec2
 
 
@@ -28,6 +29,9 @@ def load_scenario(path: str | Path) -> Scenario:
         for item in data.get("obstacles", [])
     )
     config = SafetyConfig(**{key: float(value) for key, value in data.get("config", {}).items()})
+    calibration = None
+    if calibration_path := data.get("uncertainty_calibration"):
+        calibration = load_calibration(source.parent / str(calibration_path))
     return Scenario(
         name=str(data.get("name", source.stem)),
         ego=RobotState(
@@ -41,5 +45,6 @@ def load_scenario(path: str | Path) -> Scenario:
         ),
         obstacles=obstacles,
         config=config,
+        calibration=calibration,
     )
 

@@ -17,6 +17,7 @@ class RuntimeAssuranceSupervisor:
             scenario.commanded_control,
             scenario.obstacles,
             scenario.config,
+            scenario.calibration,
         )
         if is_safe(commanded, scenario):
             return AssuranceDecision(

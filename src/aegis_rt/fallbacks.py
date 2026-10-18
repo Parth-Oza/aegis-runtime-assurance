@@ -82,6 +82,7 @@ class LatticeFallbackController:
                 Control(acceleration, yaw_rate),
                 scenario.obstacles,
                 config,
+                scenario.calibration,
             )
             for acceleration in brake_levels
             for yaw_rate in yaw_levels
@@ -125,6 +126,7 @@ class ControlBarrierFallbackController:
                 Control(acceleration, yaw_rate),
                 scenario.obstacles,
                 config,
+                scenario.calibration,
             )
             for acceleration in acceleration_levels
             for yaw_rate in yaw_levels
