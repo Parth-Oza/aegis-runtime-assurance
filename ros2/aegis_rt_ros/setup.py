@@ -28,6 +28,7 @@ setup(
     entry_points={
         "console_scripts": [
             "command_guard = aegis_rt_ros.node:main",
+            "braking_recorder = aegis_rt_ros.braking_recorder:main",
         ],
     },
 )
