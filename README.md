@@ -21,6 +21,7 @@ Robotics teams routinely integrate black-box autonomy components that perform we
 - Dynamic-obstacle prediction with time-growing motion uncertainty
 - Optional non-Gaussian calibration from recorded trajectory residuals
 - ROS 2 `Twist` command guard, tracked-object adapter, and timestamped diagnostics
+- HIL braking recorder, conservative envelope estimator, review gate, and drift checks
 - Chance-constrained collision risk and worst-tail risk scoring
 - Simplex-style command supervision around an arbitrary planner
 - Deterministic search for the least-deviating safe control
@@ -63,6 +64,8 @@ The benchmark reports latency, feasibility, and normalized command deviation sep
 For tracker-specific uncertainty, fit a deterministic empirical artifact with `aegis-rt calibrate` and compare its risk estimates to the radial Gaussian baseline with `aegis-rt compare-predictors`. The compact data format, coverage metrics, and provenance requirements are documented in [the calibration guide](docs/UNCERTAINTY_CALIBRATION.md). The checked-in residual dataset is explicitly synthetic and is not presented as field evidence.
 
 The [`aegis_rt_ros`](ros2/aegis_rt_ros) package wraps the same supervisor as a fail-closed ROS 2 command guard. It accepts `Odometry`, `Twist`, and `Detection3DArray`, publishes an applied `Twist` plus timestamped diagnostics, and has a real `rosbag2_py` replay test. Build, parameters, topic remapping, and stale-stream behavior are documented in [the ROS 2 guide](docs/ROS2_COMMAND_GUARD.md).
+
+Hardware-specific reaction delay and braking capability can be captured with the ROS 2 recorder and fitted into a review-gated `SafetyConfig` artifact. The [HIL protocol](docs/HIL_BRAKING_VALIDATION.md) defines physical precautions, provenance, conservative estimation, and regression limits. No checked-in synthetic fixture is represented as hardware evidence.
 
 ## What demonstrates engineering depth
 

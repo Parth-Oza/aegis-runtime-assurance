@@ -44,6 +44,8 @@ When a scenario references an empirical calibration artifact, collision probabil
 
 The ROS 2 adapter keeps transport concerns outside the deterministic supervisor. Receipt-time freshness checks, `Twist` velocity-to-acceleration conversion, Detection3D velocity estimation, and diagnostic publication live in `aegis_rt_ros`; `CommandGuard` remains a middleware-independent state machine tested by the normal Python matrix. A stale state, command, or obstacle stream produces a zero command without invoking the probabilistic planner.
 
+The braking-calibration boundary is similarly separate: the ROS recorder captures timestamped command and odometry evidence, while the dependency-free fitter derives a conservative `SafetyConfig`. Runtime loading requires explicit review metadata and rejects artifacts whose comparison with a baseline exceeds configured drift limits.
+
 ## Failure behavior
 
 If no candidate satisfies the risk budget, Aegis chooses the minimum-risk candidate and labels the decision as an emergency fallback. This distinction is important: the system never describes an unsafe candidate as safe simply because it was the best available option.

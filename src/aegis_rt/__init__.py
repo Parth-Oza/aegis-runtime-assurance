@@ -1,6 +1,7 @@
 """Aegis runtime assurance for mobile robot control."""
 
 from .assurance import RuntimeAssuranceSupervisor
+from .braking import BrakingCalibration, DriftLimits
 from .command_guard import CommandGuard, CommandGuardConfig, GuardResult, VelocityCommand
 from .models import (
     AssuranceDecision,
@@ -15,10 +16,12 @@ from .models import (
 
 __all__ = [
     "AssuranceDecision",
+    "BrakingCalibration",
     "Control",
     "CommandGuard",
     "CommandGuardConfig",
     "EmpiricalCalibration",
+    "DriftLimits",
     "GuardResult",
     "Obstacle",
     "RobotState",
