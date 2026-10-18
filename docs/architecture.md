@@ -40,6 +40,10 @@ These assumptions are visible rather than hidden. A production integration shoul
 
 When a scenario references an empirical calibration artifact, collision probability uses the survival function of recorded radial residuals from the nearest prediction-horizon bin. The baseline Gaussian model remains the default so existing scenarios and integrations are unchanged. Evidence labels every risk sample with the active uncertainty model.
 
+## ROS 2 boundary
+
+The ROS 2 adapter keeps transport concerns outside the deterministic supervisor. Receipt-time freshness checks, `Twist` velocity-to-acceleration conversion, Detection3D velocity estimation, and diagnostic publication live in `aegis_rt_ros`; `CommandGuard` remains a middleware-independent state machine tested by the normal Python matrix. A stale state, command, or obstacle stream produces a zero command without invoking the probabilistic planner.
+
 ## Failure behavior
 
 If no candidate satisfies the risk budget, Aegis chooses the minimum-risk candidate and labels the decision as an emergency fallback. This distinction is important: the system never describes an unsafe candidate as safe simply because it was the best available option.
