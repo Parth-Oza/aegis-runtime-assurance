@@ -30,22 +30,30 @@ def _run(args: argparse.Namespace) -> int:
 
 def _benchmark(args: argparse.Namespace) -> int:
     scenario = load_scenario(args.scenario)
-    supervisor = RuntimeAssuranceSupervisor()
-    durations_ms: list[float] = []
-    for _ in range(args.warmup):
-        supervisor.evaluate(scenario)
-    for _ in range(args.runs):
-        started = time.perf_counter_ns()
-        supervisor.evaluate(scenario)
-        durations_ms.append((time.perf_counter_ns() - started) / 1_000_000)
-    ordered = sorted(durations_ms)
-    p95_index = min(len(ordered) - 1, int(0.95 * len(ordered)))
-    print(json.dumps({
-        "runs": args.runs,
-        "median_ms": round(statistics.median(ordered), 4),
-        "p95_ms": round(ordered[p95_index], 4),
-        "max_ms": round(max(ordered), 4),
-    }, indent=2))
+    names = ("lattice", "cbf") if args.controller == "both" else (args.controller,)
+    results: dict[str, dict[str, float | int | str]] = {}
+    for name in names:
+        supervisor = RuntimeAssuranceSupervisor(fallback_controller=name)
+        durations_ms: list[float] = []
+        for _ in range(args.warmup):
+            supervisor.evaluate(scenario)
+        decision = None
+        for _ in range(args.runs):
+            started = time.perf_counter_ns()
+            decision = supervisor.evaluate(scenario)
+            durations_ms.append((time.perf_counter_ns() - started) / 1_000_000)
+        ordered = sorted(durations_ms)
+        p95_index = min(len(ordered) - 1, int(0.95 * len(ordered)))
+        assert decision is not None
+        results[name] = {
+            "runs": args.runs,
+            "median_ms": round(statistics.median(ordered), 4),
+            "p95_ms": round(ordered[p95_index], 4),
+            "max_ms": round(max(ordered), 4),
+            "feasibility": decision.fallback_status,
+            "command_deviation": round(decision.command_deviation, 6),
+        }
+    print(json.dumps({"controllers": results}, indent=2))
     return 0
 
 
@@ -60,6 +68,12 @@ def build_parser() -> argparse.ArgumentParser:
     benchmark.add_argument("scenario")
     benchmark.add_argument("--runs", type=int, default=1000)
     benchmark.add_argument("--warmup", type=int, default=50)
+    benchmark.add_argument(
+        "--controller",
+        choices=("lattice", "cbf", "both"),
+        default="both",
+        help="Fallback controller to benchmark (default: both)",
+    )
     benchmark.set_defaults(handler=_benchmark)
     return parser
 

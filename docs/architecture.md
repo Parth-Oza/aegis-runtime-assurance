@@ -14,6 +14,20 @@ Aegis accepts a robot state, an upstream control command, tracked dynamic obstac
 6. Select the safe alternative with minimum normalized command deviation, progress loss, and tail-risk cost.
 7. Emit the original and applied risk traces as auditable evidence.
 
+## Control-barrier fallback
+
+The optional `cbf` controller uses the squared-distance barrier
+
+`h(x, o) = ||p_robot - p_obstacle||² - (r_robot + r_obstacle + margin)²`.
+
+For every prediction step and tracked obstacle it enforces the discrete exponential condition
+
+`h[k+1] >= (1 - alpha * dt) * h[k]`, with `alpha = 4.0 s^-1`.
+
+The sampled optimizer is deterministic: it evaluates 11 bounded acceleration values and 17 bounded yaw rates, rejects candidates that violate the barrier or the probabilistic envelope, then minimizes the same deviation/progress/tail-risk objective as the lattice controller. Its assumptions are planar circular geometry, constant-velocity obstacle means, a constant candidate command over the horizon, and sufficiently small `dt` for the discrete condition. This is a research fallback candidate, not a continuous-time QP implementation or a certification claim.
+
+Every intervention reports `fallback_controller`, `fallback_status`, and normalized `command_deviation`. When no sampled control meets both constraints, status is `infeasible` and the supervisor returns a clearly labeled minimum-risk emergency command rather than misrepresenting it as safe.
+
 ## Current assumptions
 
 - Planar motion and circular footprints

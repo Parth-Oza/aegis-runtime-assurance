@@ -22,6 +22,7 @@ Robotics teams routinely integrate black-box autonomy components that perform we
 - Chance-constrained collision risk and worst-tail risk scoring
 - Simplex-style command supervision around an arbitrary planner
 - Deterministic search for the least-deviating safe control
+- Optional discrete control-barrier-function fallback with explicit feasibility status
 - Counterfactual explanation of risk before and after intervention
 - JSON decision evidence and a portable HTML report
 - Repeatable latency benchmark and dependency-free Python core
@@ -54,6 +55,8 @@ Measured locally on 2026-09-06 using Python 3.14.7 on arm64:
 | Automated tests | 7 passed |
 
 The benchmark used 50 warm-up evaluations followed by 1,000 recorded evaluations. These are prototype measurements on one machine, not a real-time guarantee or safety certification.
+
+The benchmark reports latency, feasibility, and normalized command deviation separately for the `lattice` and `cbf` fallback controllers. Select one with `--controller lattice` or `--controller cbf`; the default compares both.
 
 ## What demonstrates engineering depth
 
