@@ -7,7 +7,6 @@ setup(
     version="0.1.0",
     packages=[package_name, "aegis_rt"],
     package_dir={
-        package_name: package_name,
         "aegis_rt": "../../src/aegis_rt",
     },
     data_files=[
