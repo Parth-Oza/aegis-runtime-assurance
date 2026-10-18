@@ -50,6 +50,24 @@ class Obstacle:
 
 
 @dataclass(frozen=True)
+class ResidualBin:
+    horizon_s: float
+    residuals_m: tuple[float, ...]
+    quantile_m: float
+
+
+@dataclass(frozen=True)
+class EmpiricalCalibration:
+    schema_version: int
+    source: str
+    target_coverage: float
+    empirical_coverage: float
+    calibration_error: float
+    sample_count: int
+    bins: tuple[ResidualBin, ...]
+
+
+@dataclass(frozen=True)
 class SafetyConfig:
     horizon_s: float = 5.0
     step_s: float = 0.1
@@ -78,6 +96,7 @@ class Scenario:
     commanded_control: Control
     obstacles: tuple[Obstacle, ...]
     config: SafetyConfig = field(default_factory=SafetyConfig)
+    calibration: EmpiricalCalibration | None = None
 
 
 @dataclass(frozen=True)
@@ -94,6 +113,7 @@ class RiskSample:
     clearance_m: float
     uncertainty_sigma_m: float
     collision_probability: float
+    uncertainty_model: str
 
 
 @dataclass(frozen=True)

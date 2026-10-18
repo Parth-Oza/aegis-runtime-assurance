@@ -4,9 +4,11 @@ import argparse
 import json
 import statistics
 import time
+from dataclasses import replace
 from pathlib import Path
 
 from .assurance import RuntimeAssuranceSupervisor
+from .calibration import fit_calibration, load_calibration, write_calibration
 from .evidence import write_html, write_json
 from .scenario import load_scenario
 
@@ -57,6 +59,48 @@ def _benchmark(args: argparse.Namespace) -> int:
     return 0
 
 
+def _calibrate(args: argparse.Namespace) -> int:
+    calibration = fit_calibration(
+        args.dataset,
+        target_coverage=args.coverage,
+        source=args.source,
+    )
+    target = write_calibration(calibration, args.output)
+    print(json.dumps({
+        "artifact": str(target.resolve()),
+        "sample_count": calibration.sample_count,
+        "target_coverage": calibration.target_coverage,
+        "empirical_coverage": calibration.empirical_coverage,
+        "calibration_error": calibration.calibration_error,
+        "horizon_bins": len(calibration.bins),
+    }, indent=2))
+    return 0
+
+
+def _compare_predictors(args: argparse.Namespace) -> int:
+    scenario = load_scenario(args.scenario)
+    baseline = RuntimeAssuranceSupervisor().evaluate(replace(scenario, calibration=None))
+    calibration = load_calibration(args.calibration)
+    empirical = RuntimeAssuranceSupervisor().evaluate(
+        replace(scenario, calibration=calibration)
+    )
+    print(json.dumps({
+        "scenario": scenario.name,
+        "baseline": {
+            "model": "radial_gaussian",
+            "commanded_risk": baseline.commanded_evaluation.max_collision_probability,
+            "applied_risk": baseline.applied_evaluation.max_collision_probability,
+        },
+        "calibrated": {
+            "model": "empirical_residual",
+            "source": calibration.source,
+            "commanded_risk": empirical.commanded_evaluation.max_collision_probability,
+            "applied_risk": empirical.applied_evaluation.max_collision_probability,
+        },
+    }, indent=2))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Aegis robot runtime assurance")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -75,6 +119,22 @@ def build_parser() -> argparse.ArgumentParser:
         help="Fallback controller to benchmark (default: both)",
     )
     benchmark.set_defaults(handler=_benchmark)
+    calibrate = subparsers.add_parser(
+        "calibrate",
+        help="Fit a deterministic empirical residual calibration artifact",
+    )
+    calibrate.add_argument("dataset")
+    calibrate.add_argument("--output", required=True)
+    calibrate.add_argument("--coverage", type=float, default=0.95)
+    calibrate.add_argument("--source", help="Human-readable dataset provenance")
+    calibrate.set_defaults(handler=_calibrate)
+    compare = subparsers.add_parser(
+        "compare-predictors",
+        help="Compare baseline and empirical risk estimates",
+    )
+    compare.add_argument("scenario")
+    compare.add_argument("calibration")
+    compare.set_defaults(handler=_compare_predictors)
     return parser
 
 
